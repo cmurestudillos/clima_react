@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <!--====== Title ======-->
+  <title>Clima React</title>
+  <!-- Autor -->
+  <meta name="author" content="Carlos Mur">
+  <!-- Description -->
+  <meta name="description" content="Aplicacion que muestra el clima de la zona seleccionada.">
+  <!-- Keywords -->
+  <meta name="keywords" content="react.js, reactjs, clima, materialize, web app, spa react, api weather, app, windows" />
+  <!-- Materialice CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+  <div id="root"></div>
+  <!-- Materialice JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var elementos = document.querySelectorAll('select');
+      M.FormSelect.init(elementos);
+    });
+  </script>
+</body>
+
+</html>
